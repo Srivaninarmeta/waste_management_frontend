@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://YOUR-BACKEND-URL.onrender.com/api/$1"
+      "destination": "https://waste-management-cxsv.onrender.com/api/$1"
     },
     {
       "source": "/(.*)",
