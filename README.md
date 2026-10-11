@@ -1,16 +1,36 @@
-# React + Vite
+# ♻️ Smart Waste Management - Frontend Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The client web application for the **Smart Waste Management and Pickup System**, built with **React 19**, **Vite**, and **Bootstrap 5**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Application
+- **🚀 Live Web App:** [https://smart-waste-liard.vercel.app](https://smart-waste-liard.vercel.app)
+- **⚙️ Backend API Repository:** [https://github.com/Srivaninarmeta/waste_management_backend](https://github.com/Srivaninarmeta/waste_management_backend)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Key Features
+- **Resident Portal:** Submit pickups across 6 waste categories, track progress status, and view audit timelines.
+- **Worker Portal:** View assigned tasks, accept jobs, update in-progress status, and confirm completion.
+- **Admin Hub:** Assign workers, monitor operations, manage user directory, and view aggregate metrics.
+- **Eco Design System:** Responsive mobile/desktop UI with vibrant eco aesthetics and quick demo autofill.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+- **Framework:** React 19 + Vite
+- **Styling:** Bootstrap 5 & Custom Modern CSS
+- **HTTP Client:** Axios with JWT interceptors
+- **Routing:** React Router v7
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started Locally
+
+```bash
+npm install
+npm run dev
+```
+Runs at `http://localhost:5173`.
